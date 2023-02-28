@@ -1,0 +1,24 @@
+=============================================================
+Bilbiography of Educational Resources for the AIHWKIT project
+=============================================================
+
+But what is a neural network? | Chapter 1, Deep learning, https://www.youtube.com/watch?v=aircAruvnKk&ab_channel=3Blue1Brown
+- This video is a general introduction to the idea of neural networks. It covers nodes, layers, and the connections between them. The
+video also touches on weights, biases, and the underlying math behind training a neural network.
+
+Gradient descent, how neural networks learn | Chapter 2, Deep learning, https://www.youtube.com/watch?v=IHZwWFHWa-w&t=1118s&ab_channel=3Blue1Brown
+- This video goes in detail about the process(es) in training a neural network. It describes in depth how cost functions are calculated
+and how they are written notation-wise. Most importantly, this video explains how cost functions are minimized using the process of 
+gradient descent.
+
+What is backpropagation really doing? | Chapter 3, Deep learning, https://www.youtube.com/watch?v=Ilg3gGewQ5U&ab_channel=3Blue1Brown
+- This video explains how gradient descent (stochastic gradient descent) is used to determine weights and biases through 
+a process called backpropagation.
+
+Backpropagation calculus | Chapter 4, Deep learning, https://www.youtube.com/watch?v=tIeHLnjs5U8&ab_channel=3Blue1Brown
+- This video is mainly about the math behind the backpropagation process. This includes the chain rule in neural networks, 
+derivative computations, and more calculus.
+
+https://ibm-ai-hardware-center.github.io/AiMOS/index.html
+- Documentation for using the AiMOS Supercomputer. This includes logging in and submitting jobs. There is also a section dedicated to
+IBM AI Hardware Toolkit.
