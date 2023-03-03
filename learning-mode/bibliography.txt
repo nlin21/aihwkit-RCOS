@@ -19,6 +19,16 @@ Backpropagation calculus | Chapter 4, Deep learning, https://www.youtube.com/wat
 - This video is mainly about the math behind the backpropagation process. This includes the chain rule in neural networks, 
 derivative computations, and more calculus.
 
-https://ibm-ai-hardware-center.github.io/AiMOS/index.html
+AiMOS Quick Start Information, https://ibm-ai-hardware-center.github.io/AiMOS/index.html
 - Documentation for using the AiMOS Supercomputer. This includes logging in and submitting jobs. There is also a section dedicated to
 IBM AI Hardware Toolkit.
+
+UvA Deep Learning Tutorials, https://uvadlc-notebooks.readthedocs.io/en/latest/index.html
+- Collection of tutorials about deep learning from the University of Amsterdam. It provides guides for PyTorch and introductions to
+transformer architecture and graph neural networks.
+
+Deep Learning: A Visual Introduction, https://www.slideshare.net/LuMa921/deep-learning-a-visual-introduction
+- Slideshow on the foundations of deep learning (types of neural networks, gradient descent, autoencoders, NLP).
+
+Distributed Communication Package - torch.distributed, https://pytorch.org/docs/stable/distributed.html
+- Detailed walkthrough of PyTorch data parallel training concepts.
