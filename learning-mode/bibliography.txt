@@ -32,3 +32,7 @@ Deep Learning: A Visual Introduction, https://www.slideshare.net/LuMa921/deep-le
 
 Distributed Communication Package - torch.distributed, https://pytorch.org/docs/stable/distributed.html
 - Detailed walkthrough of PyTorch data parallel training concepts.
+
+Hugging Face Course, https://huggingface.co/course/chapter1/1
+- Course on natural language processing with integrated libraries from Hugging Face. The course also explains transformers and
+showcases how to use the HF libraries to deploy a transformer model.
