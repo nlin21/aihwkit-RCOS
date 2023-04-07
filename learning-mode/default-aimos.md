@@ -23,6 +23,18 @@ ssh into one of the following:
 
 For our purposes we will be using the npl node<br/><br/>
 
+## Step 2.5 - set up passwordless
+NOTE: this step should only be peformed **ONCE**
+
+Create a new ssh key with no password  
+Press enter when prompted for a password
+
+    ssh-keygen -t rsa  
+    ...
+    cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+
+This makes ssh-ing between nodes easier<br/><br/>
+
 ## Step 3 - proxy setup
 
     export http_proxy=http://proxy:8888  
