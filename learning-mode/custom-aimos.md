@@ -4,6 +4,7 @@
 https://ibm-ai-hardware-center.github.io/AiMOS/aimos-env-basics.html#initial-environment-setup
 - passwordless is set up
 - proxy is set up
+- ssh'd into a front end node
 
 <br/>
 
@@ -60,3 +61,17 @@ To use GPU with id 6:
 To use all the 0, 1, 2, and 3 GPUs:
 
     export CUDA_VISIBLE_DEVICES=0,1,2,3
+
+<br/>
+
+## Jobs can submitted with the Slurm job scheduler
+Staging of jobs should be done in ~/scratch/
+
+Example script:
+
+    SBATCH -D /gpfs/u/home/AHWT/AHWT<user-name>/scratch
+    SBATCH -o joboutput.%J
+    SBATCH -e joberror.%J
+    SBATCH --time=06:00:00
+    SBATCH --gres=gpu:1
+    SBATCH --gpus=1
